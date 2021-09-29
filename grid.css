@@ -1,0 +1,50 @@
+  
+
+body{
+    margin:0px;
+    padding:0px;
+    background-color: white;
+    display:grid;
+    grid-auto-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: auto;
+    grid-template-areas: 
+    "prod1 prod2 prod3 prod4"
+}
+
+ul{
+    list-style-type: none; 
+    padding: 0;
+    margin: 40px 0px; 
+}
+
+li{ 
+    margin: 0px 10px;
+    background-color: white;
+    border: solid 2px rgb(243, 245, 247);    
+}
+
+.amazon{
+    width: 200px;
+    height:150px;
+    padding:30px 45px 11px;
+}
+
+.apple{
+    width: 120px;
+    height:150px;
+    margin:0px 50px;
+    padding: 25px 35px 25px;
+}
+
+.adidas{
+    width: 180px;
+    height:150px;
+    padding: 40px 45px 11px;
+}
+
+.beats{
+    width: 120px;
+    height:150px;
+    margin:0px 50px;
+    padding: 20px 35px 25px;
+}
